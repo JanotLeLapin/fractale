@@ -45,6 +45,14 @@ def iteration1(l: int):
         right(120 * j)
 
 
+def iteration2(l: int):
+    for j in range(1, 4, 2):
+        iteration1(l / 2)
+        left(60)
+        iteration1(l / 2)
+        right(120 * j)
+
+
 def motif(l: int):
     forward(l)
     left(60)
@@ -56,5 +64,5 @@ def motif(l: int):
 
 
 speed(0)
-iteration1(40)
+iteration2(40)
 done()

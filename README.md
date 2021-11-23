@@ -30,3 +30,8 @@
 - On sait qu'à la fin la tortue doit avoir un angle de 0° et que le `right` à la fin de la boucle donne un angle de 120 degrés à la tortue. On sait également que 120° * 3 = 360° ce qui correspond à un angle de 0°.
 - Pour ce faire, on multiplie 120 par `j` et on fait en sorte qu'au premier tour `j` vaut 1 puis au 2ème `j` vaut 3. On initialise donc le `range` de la boucle avec 1 pour valeur de départ, 4 pour valeur finale et un pas de 2.
 - La taille L1 d'un segment de la première itération équivaut au tiers de la taille de L d'un segment du premier motif.
+
+### II.3
+
+- On réutilise la logique qu'on a utilisé pour l'itération 1, on remplace chaque appel à la fonction `motif` par un appel à la fonction `iteration1`.
+- La taille de L2 vaut 1/3/3 de L, donc 1/9 de L.
