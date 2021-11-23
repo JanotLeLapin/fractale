@@ -29,3 +29,4 @@
 - On crée une boucle qui s'exécute 2 fois, à l'intérieur on dessine deux fois le motif précédemment créé avec un angle de 60 degrés entre les deux puis on tourne de 120.
 - On sait qu'à la fin la tortue doit avoir un angle de 0° et que le `right` à la fin de la boucle donne un angle de 120 degrés à la tortue. On sait également que 120° * 3 = 360° ce qui correspond à un angle de 0°.
 - Pour ce faire, on multiplie 120 par `j` et on fait en sorte qu'au premier tour `j` vaut 1 puis au 2ème `j` vaut 3. On initialise donc le `range` de la boucle avec 1 pour valeur de départ, 4 pour valeur finale et un pas de 2.
+- La taille L1 d'un segment de la première itération équivaut au tiers de la taille de L d'un segment du premier motif.
