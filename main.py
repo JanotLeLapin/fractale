@@ -1,6 +1,13 @@
 from turtle import *
 
 
+def spirale():
+    for i in range(10):
+        for j in range(2):
+            forward(10 * i)
+            left(90)
+
+
 def rosace():
     for i in range(36):
         circle(80)
@@ -31,5 +38,5 @@ def creneau(l):
 
 
 speed(0)
-rosace()
+spirale()
 done()
