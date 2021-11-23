@@ -14,7 +14,7 @@ def rosace():
         left(10)
 
 
-def creneau(l):
+def creneau(l: int):
     def tleft():
         left(90)
 
