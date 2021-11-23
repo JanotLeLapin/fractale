@@ -7,6 +7,8 @@ pip install -r requirements.txt # Installer les modules nécessaires
 python main.py # Lancer le script
 ```
 
+Si vous êtes Monsieur Daumont/Kunian et que vous vous intéressez au code des algorithmes, ouvrez le fichier [algo.py](algo.py) et ignorez `main.py`. Ce dernier permet **uniquement** d'afficher l'écran de sélection des algorithmes.
+
 ## Dessin A
 
 - On crée une boucle qui se répète 2 fois pour dessiner les deux segments perpendiculaires de même longueur
