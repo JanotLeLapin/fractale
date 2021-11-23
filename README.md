@@ -1,3 +1,8 @@
+## Dessin B
+
+- On crée une boucle qui dessine un cercle de rayon 80 puis se décale de 10 degrés.
+- La boucle se répète 36 fois, ce qui correspond à l'angle d'un cercle divisé par le décalage entre chaque cercle ou 360 / 10.
+
 ## Dessin C
 
 - On écrit les fonctions tleft et tright pour éviter d'avoir à appeller les fonctions right et left en spécifiant l'angle à chaque fois (c'est toujours le même)

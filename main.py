@@ -1,6 +1,12 @@
 from turtle import *
 
 
+def rosace():
+    for i in range(36):
+        circle(80)
+        left(10)
+
+
 def creneau(l):
     def tleft():
         left(90)
@@ -25,5 +31,5 @@ def creneau(l):
 
 
 speed(0)
-creneau(10)
+rosace()
 done()
