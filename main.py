@@ -37,6 +37,24 @@ def creneau(l: int):
             forward(l)
 
 
+def iteration1(l: int):
+    for j in range(1, 4, 2):
+        motif(l / 2)
+        left(60)
+        motif(l / 2)
+        right(120 * j)
+
+
+def motif(l: int):
+    forward(l)
+    left(60)
+    forward(l)
+    right(120)
+    forward(l)
+    left(60)
+    forward(l)
+
+
 speed(0)
-spirale()
+iteration1(40)
 done()
