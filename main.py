@@ -1,22 +1,6 @@
 from algo import *
 import inquirer
 
-# User input
-algo = inquirer.prompt([
-    inquirer.List(
-        'algo',
-        'Quel algorithme voulez vous exécuter ?',
-        [
-            'Dessin A',
-            'Dessin B',
-            'Dessin C',
-            'Motif',
-            'Itération 1',
-            'Itération 2'
-        ]
-    )
-])['algo']
-
 options = {
     'Dessin A': spirale,
     'Dessin B': rosace,
@@ -27,7 +11,16 @@ segment_options = {
     'Motif': motif,
     'Itération 1': iteration1,
     'Itération 2': iteration2,
+    'Flocon': flocon
 }
+
+algo = inquirer.prompt([
+    inquirer.List(
+        'algo',
+        'Quel algorithme voulez vous exécuter ?',
+        list(options.keys()) + list(segment_options.keys())
+    )
+])['algo']
 
 if algo in options:
     speed(0)

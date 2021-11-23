@@ -63,3 +63,7 @@ def motif(l: int):
     forward(l)
     left(60)
     forward(l)
+
+
+def flocon(l: int):
+    print('Code Olivier !')
