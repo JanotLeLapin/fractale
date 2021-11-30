@@ -69,11 +69,3 @@ def flocon(l: int):
     for i in range(3):
         motif(l)
         right(120)
-
-
-def iterationN(l: int, n: int):
-    print('Code Joseph !')
-
-
-def floconN(l: int, n: int):
-    print('Code Joseph !')
